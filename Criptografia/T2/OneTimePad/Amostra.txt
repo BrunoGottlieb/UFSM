@@ -1,0 +1,11 @@
+Mensagem criptografa:
+
+hpkvicsulegtxhyidhumgammwsietw
+
+Chave:
+
+dsgjtrerhscgfhserfderhygfsdeqwft
+
+Mensagem descriptograda:
+
+exemplodemensagemcriptografada
