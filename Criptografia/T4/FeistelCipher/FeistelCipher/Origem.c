@@ -10,13 +10,13 @@ void Xor(char* output, char* key);
 void Shift(char* half, int len);
 void KeyGenerator(char* key, char* subKey, char* right, int i);
 
+#define TAM 9
+
 int main()
 {
-	// 11001101
-	// 11011011
-	char plainText[100] = { "11001101" }; // dado a ser criptografado
-	char key[100] = { "11001010" }; // chave
-	char subKey[100]; // usada para gerar uma nova chave a cada rodada
+	char plainText[TAM] = { "11001101" }; // dado a ser criptografado
+	char key[TAM] = { "11001010" }; // chave
+	char subKey[TAM]; // usada para gerar uma nova chave a cada rodada
 	int rounds = 4; // numero de rounds
 
 	int answer = 0;
@@ -32,8 +32,8 @@ int main()
 
 	int size = strlen(plainText); // tamanho do dado inserido
 	int blockSize = size / 2; // tamanho do bloco, dado dividido na metade
-	char left[100]; // lado esquerdo 
-	char right[100]; // lado direito
+	char left[TAM]; // lado esquerdo 
+	char right[TAM]; // lado direito
 
 	printf("\n\nText: %s\n", plainText);
 	printf("Key: %s\n\n", key);
@@ -80,7 +80,7 @@ void F(char* half, char* key) // round function
 	Shift(half, 1);
 }
 
-void KeyGenerator(char* key, char* subKey, char* right, int i) // gera uma nova sub-chave
+void KeyGenerator(char* key, char* subKey, char* right, int i) // gera uma nova sub-chave a cada rodada
 {
 	Xor(subKey, right);
 	Shift(subKey, 3);
@@ -88,7 +88,7 @@ void KeyGenerator(char* key, char* subKey, char* right, int i) // gera uma nova 
 	Shift(subKey, 1);
 }
 
-void Shift(char* output, int shiftBy)
+void Shift(char* output, int shiftBy) // deslocamento de bits
 {
 	int size = strlen(output);
 	if (shiftBy > size)
@@ -111,18 +111,17 @@ void Shift(char* output, int shiftBy)
 	}
 }
 
-void Xor(char* output, char* key)
+void Xor(char* output, char* key) // Realiza um xor entre dois bits
 {
 	for (int i = 0; i < strlen(output); i++)
 	{
-		if (output[i] == key[i]) output[i] = '0';
-		else output[i] = '1';
+		output[i] = output[i] == key[i] ? '0' : '1';
 	}
 }
 
 void IO(char* plainText, char* key, int rounds) // coleta os dados do usuario
 {
-	puts("Insert plainText: [Binary]");
+	puts("Insert plainText: [Binary] [Up to 8 bits]");
 	scanf("%s", plainText);
 
 	puts("Insert key: [Binary] [At least plainText size]");
