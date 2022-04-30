@@ -1,0 +1,49 @@
+------------ Printando ---------------
+
+OrderedTable
+
+records added during reorganization 9142
+records removed during reorganization 8142
+blocks loaded during reorganization 9982
+blocks saved during reorganization 9982
+time to insert: 7223
+time to query: 175
+
+HeapTable
+
+records added during reorganization 1000
+records removed during reorganization 0
+blocks loaded during reorganization 993
+blocks saved during reorganization 993
+time to insert: 296
+time to query: 1283
+
+SlackedOrderedTable
+
+records added during reorganization 11272
+records removed during reorganization 10272
+blocks loaded during reorganization 2157
+blocks saved during reorganization 2157
+time to insert: 1919
+time to query: 197
+
+--------- Sem printar nada --------
+
+OrderedTable
+
+records added during reorganization 8921
+records removed during reorganization 7921
+blocks loaded during reorganization 9736
+blocks saved during reorganization 9736
+time to insert: 6398
+time to query: 22
+
+SlackedOrderedTable
+
+records added during reorganization 11720
+records removed during reorganization 10720
+blocks loaded during reorganization 2192
+blocks saved during reorganization 2192
+time to insert: 1431
+time to query: 38
+
