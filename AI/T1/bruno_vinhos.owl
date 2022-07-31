@@ -1,0 +1,1643 @@
+Prefix(:=<http://www.semanticweb.org/brunogottlieb/ontologies/2022/4/untitled-ontology-3#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/brunogottlieb/ontologies/2022/4/untitled-ontology-3>
+
+Declaration(Class(<http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>))
+Declaration(Class(:AltaGraduaçãoAlcoólica))
+Declaration(Class(:AltoFeliz))
+Declaration(Class(:AltoVolume))
+Declaration(Class(:Alvarinho))
+Declaration(Class(:Amadurecidos))
+Declaration(Class(:AmadurecidosMaisDeUmAno))
+Declaration(Class(:Americana))
+Declaration(Class(:Amitié))
+Declaration(Class(:Assemblage))
+Declaration(Class(:Aurora))
+Declaration(Class(:Bagé))
+Declaration(Class(:BaixaGraduaçãoAlcoólica))
+Declaration(Class(:BaixoVolume))
+Declaration(Class(:BentoGonçalves))
+Declaration(Class(:Branco))
+Declaration(Class(:BrancoDoce))
+Declaration(Class(:BrancoRosé))
+Declaration(Class(:BrancoTinto))
+Declaration(Class(:BuenosWines))
+Declaration(Class(:CampanhaGaúcha))
+Declaration(Class(:CamposDeCimaDaSerra))
+Declaration(Class(:Candiota))
+Declaration(Class(:CarbetFranc))
+Declaration(Class(:CasaMarquesPereira))
+Declaration(Class(:CasaValduga))
+Declaration(Class(:CasaVenturini))
+Declaration(Class(:CaxiasDoSul))
+Declaration(Class(:Chardonnay))
+Declaration(Class(:Cidade))
+Declaration(Class(:Classe))
+Declaration(Class(:CãoPerdigueiro))
+Declaration(Class(:DeMesa))
+Declaration(Class(:DelGrano))
+Declaration(Class(:Demi-sec))
+Declaration(Class(:Doce))
+Declaration(Class(:DoceOuMeioDoce))
+Declaration(Class(:DonAffonso))
+Declaration(Class(:DonBonifácio))
+Declaration(Class(:DonGuerino))
+Declaration(Class(:Espumante))
+Declaration(Class(:EstradaReal))
+Declaration(Class(:EstânciaParaizo))
+Declaration(Class(:Farroupilha))
+Declaration(Class(:Fino))
+Declaration(Class(:FloresDaCunha))
+Declaration(Class(:Frisante))
+Declaration(Class(:FrisanteSuave))
+Declaration(Class(:Galiotto))
+Declaration(Class(:Góes))
+Declaration(Class(:LagoaGrande))
+Declaration(Class(:Leve))
+Declaration(Class(:Licoroso))
+Declaration(Class(:LicorosoOuNobre))
+Declaration(Class(:Lorena))
+Declaration(Class(:LuizArgenta))
+Declaration(Class(:Malbec))
+Declaration(Class(:MeioDoce))
+Declaration(Class(:Merlot))
+Declaration(Class(:MonteBeloDoSul))
+Declaration(Class(:MonteReale))
+Declaration(Class(:Moscato))
+Declaration(Class(:Nature))
+Declaration(Class(:Niágara))
+Declaration(Class(:Nobre))
+Declaration(Class(:NovaAliança))
+Declaration(Class(:Panizzon))
+Declaration(Class(:PinotNoir))
+Declaration(Class(:Prosecco))
+Declaration(Class(:RioDeJaneiro))
+Declaration(Class(:RioSol))
+Declaration(Class(:Rosé))
+Declaration(Class(:SafraAntiga))
+Declaration(Class(:SafraRecente))
+Declaration(Class(:Safrados))
+Declaration(Class(:Salton))
+Declaration(Class(:Sangiovese))
+Declaration(Class(:Seco))
+Declaration(Class(:SecoOuRosé))
+Declaration(Class(:SecoRosé))
+Declaration(Class(:SerraDoSudeste))
+Declaration(Class(:SerraGaúcha))
+Declaration(Class(:Shiraz))
+Declaration(Class(:Suave))
+Declaration(Class(:SuaveRosé))
+Declaration(Class(:SãoGonçalodoSapucaí))
+Declaration(Class(:SãoRoque))
+Declaration(Class(:SãoRoques))
+Declaration(Class(:Tannat))
+Declaration(Class(:Terragnolo))
+Declaration(Class(:Tinto))
+Declaration(Class(:Tipo))
+Declaration(Class(:TrêsCorações))
+Declaration(Class(:ValeDoSãoFrancisco))
+Declaration(Class(:ValedosVinhedos))
+Declaration(Class(:Vinhedo))
+Declaration(Class(:VinhedoCampanhaGaúcha))
+Declaration(Class(:VinhedoSerraDoSudeste))
+Declaration(Class(:VinhedoSerraGaúcha))
+Declaration(Class(:VinhedoSãoGonçaloDoSapucai))
+Declaration(Class(:VinhedoSãoRoque))
+Declaration(Class(:VinhedoValeDoSãoFrancisco))
+Declaration(Class(:VinhedoValeDosVinhedos))
+Declaration(Class(:Vinho))
+Declaration(Class(:VinhoDeMesa))
+Declaration(Class(:VinhoEspumante))
+Declaration(Class(:VinhoFino))
+Declaration(Class(:VinhoFrisante))
+Declaration(Class(:VinhoLeve))
+Declaration(Class(:VivantWines))
+Declaration(Class(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>))
+Declaration(Class(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>))
+Declaration(ObjectProperty(:temCidade))
+Declaration(ObjectProperty(:temTipo))
+Declaration(ObjectProperty(:temVinhedo))
+Declaration(ObjectProperty(:temVinícola))
+Declaration(ObjectProperty(:vinícolaTemCidade))
+Declaration(ObjectProperty(:éCidadeDe))
+Declaration(ObjectProperty(:éTipoDe))
+Declaration(ObjectProperty(:éUvaDe))
+Declaration(ObjectProperty(:éVinhedoDe))
+Declaration(ObjectProperty(:éVinícolaDe))
+Declaration(ObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe>))
+Declaration(DataProperty(:Amadurecimento))
+Declaration(DataProperty(:Olfato))
+Declaration(DataProperty(:Paladar))
+Declaration(DataProperty(:PotencialDeGuarda))
+Declaration(DataProperty(:Safra))
+Declaration(DataProperty(:Temperatura))
+Declaration(DataProperty(:Visual))
+Declaration(DataProperty(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume>))
+Declaration(DataProperty(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica>))
+Declaration(NamedIndividual(:Cidade_AltoFeliz))
+Declaration(NamedIndividual(:Cidade_Bagé))
+Declaration(NamedIndividual(:Cidade_BentoGonçalves))
+Declaration(NamedIndividual(:Cidade_Candiota))
+Declaration(NamedIndividual(:Cidade_CaxiasDoSul))
+Declaration(NamedIndividual(:Cidade_Farroupilha))
+Declaration(NamedIndividual(:Cidade_FloresDaCunha))
+Declaration(NamedIndividual(:Cidade_LagoaGrande))
+Declaration(NamedIndividual(:Cidade_MonteBeloDoSul))
+Declaration(NamedIndividual(:Cidade_RioDeJaneiro))
+Declaration(NamedIndividual(:Cidade_SãoRoque))
+Declaration(NamedIndividual(:Cidade_TrêsCorações))
+Declaration(NamedIndividual(:Classe_DeMesa))
+Declaration(NamedIndividual(:Classe_Espumante))
+Declaration(NamedIndividual(:Classe_Fino))
+Declaration(NamedIndividual(:Classe_Frisante))
+Declaration(NamedIndividual(:Classe_Leve))
+Declaration(NamedIndividual(:Classe_Licoroso))
+Declaration(NamedIndividual(:Classe_Nobre))
+Declaration(NamedIndividual(:Classificação_Demi-sec))
+Declaration(NamedIndividual(:Classificação_Doce))
+Declaration(NamedIndividual(:Classificação_FrisanteSuave))
+Declaration(NamedIndividual(:Classificação_MeioDoce))
+Declaration(NamedIndividual(:Classificação_Nature))
+Declaration(NamedIndividual(:Classificação_Prosecco))
+Declaration(NamedIndividual(:Classificação_Seco))
+Declaration(NamedIndividual(:Classificação_Suave))
+Declaration(NamedIndividual(:Classificação_SuaveRosé))
+Declaration(NamedIndividual(:Tipo_Branco))
+Declaration(NamedIndividual(:Tipo_Rosé))
+Declaration(NamedIndividual(:Tipo_Tinto))
+Declaration(NamedIndividual(:Uva_Alvarinho))
+Declaration(NamedIndividual(:Uva_Americana))
+Declaration(NamedIndividual(:Uva_Assemblage))
+Declaration(NamedIndividual(:Uva_CarbetFranc))
+Declaration(NamedIndividual(:Uva_Chardonnay))
+Declaration(NamedIndividual(:Uva_Lorena))
+Declaration(NamedIndividual(:Uva_Malbec))
+Declaration(NamedIndividual(:Uva_Merlot))
+Declaration(NamedIndividual(:Uva_Moscato))
+Declaration(NamedIndividual(:Uva_Niágara))
+Declaration(NamedIndividual(:Uva_PinotNoir))
+Declaration(NamedIndividual(:Uva_Sangiovese))
+Declaration(NamedIndividual(:Uva_Shiraz))
+Declaration(NamedIndividual(:Uva_Tannat))
+Declaration(NamedIndividual(:Vinhedo_CampanhaGaúcha))
+Declaration(NamedIndividual(:Vinhedo_CamposDeCimaDaSerra))
+Declaration(NamedIndividual(:Vinhedo_SerraDoSudeste))
+Declaration(NamedIndividual(:Vinhedo_SerraGaúcha))
+Declaration(NamedIndividual(:Vinhedo_SãoGonçalodoSapucaí))
+Declaration(NamedIndividual(:Vinhedo_SãoRoque))
+Declaration(NamedIndividual(:Vinhedo_ValeDoSãoFrancisco))
+Declaration(NamedIndividual(:Vinhedo_ValedosVinhedos))
+Declaration(NamedIndividual(:Vinho_AliançaChardonnay))
+Declaration(NamedIndividual(:Vinho_AmitiéChardonnayOAKBarrel))
+Declaration(NamedIndividual(:Vinho_Aurora90_AnosBlendHistórico))
+Declaration(NamedIndividual(:Vinho_CasaValdugaTerroirPinotNoir))
+Declaration(NamedIndividual(:Vinho_CãoPerdigueiroMerlotNouveau))
+Declaration(NamedIndividual(:Vinho_DelGranoFrisanteRoseSuaveLata))
+Declaration(NamedIndividual(:Vinho_DonAffonsoParoleDiFamigliaAlvarinho))
+Declaration(NamedIndividual(:Vinho_DonGuerinoAvvioBrancoSuave))
+Declaration(NamedIndividual(:Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P.))
+Declaration(NamedIndividual(:Vinho_GaliottoBrancoSuave))
+Declaration(NamedIndividual(:Vinho_GalloRossoDiVenturiniDemi-Sec))
+Declaration(NamedIndividual(:Vinho_HabitatPinotNoir))
+Declaration(NamedIndividual(:Vinho_Luiz_ArgentaCaveCabernetFranc))
+Declaration(NamedIndividual(:Vinho_MarcusJamesReservadoRosé))
+Declaration(NamedIndividual(:Vinho_PrimeiraEstradaSyrahRose))
+Declaration(NamedIndividual(:Vinho_RioSol8GranReserva))
+Declaration(NamedIndividual(:Vinho_SaltonSeptimum2018))
+Declaration(NamedIndividual(:Vinho_SanMartinRoséSuave))
+Declaration(NamedIndividual(:Vinho_SegredosDaAdegaMerlot2014))
+Declaration(NamedIndividual(:Vinho_TemposDeGóesReservaMalbec))
+Declaration(NamedIndividual(:Vinho_TerragnoloMarselan))
+Declaration(NamedIndividual(:Vinho_ValdemizVideirasTannat))
+Declaration(NamedIndividual(:Vinho_ValparaisoVitaleNebbiolo))
+Declaration(NamedIndividual(:Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011))
+Declaration(NamedIndividual(:Vinho_VivantFrisanteBrancoVinhoEmLata))
+Declaration(NamedIndividual(:Vinícola_Amitié))
+Declaration(NamedIndividual(:Vinícola_Aurora))
+Declaration(NamedIndividual(:Vinícola_BuenosWines))
+Declaration(NamedIndividual(:Vinícola_CasaMarquesPereira))
+Declaration(NamedIndividual(:Vinícola_CasaValduga))
+Declaration(NamedIndividual(:Vinícola_CasaVenturini))
+Declaration(NamedIndividual(:Vinícola_CãoPerdigueiro))
+Declaration(NamedIndividual(:Vinícola_DelGrano))
+Declaration(NamedIndividual(:Vinícola_DonAffonso))
+Declaration(NamedIndividual(:Vinícola_DonBonifácio))
+Declaration(NamedIndividual(:Vinícola_DonGuerino))
+Declaration(NamedIndividual(:Vinícola_EstradaReal))
+Declaration(NamedIndividual(:Vinícola_EstânciaParaizo))
+Declaration(NamedIndividual(:Vinícola_Galiotto))
+Declaration(NamedIndividual(:Vinícola_Góes))
+Declaration(NamedIndividual(:Vinícola_LuizArgenta))
+Declaration(NamedIndividual(:Vinícola_MonteReale))
+Declaration(NamedIndividual(:Vinícola_NovaAliança))
+Declaration(NamedIndividual(:Vinícola_Panizzon))
+Declaration(NamedIndividual(:Vinícola_RioSol))
+Declaration(NamedIndividual(:Vinícola_Salton))
+Declaration(NamedIndividual(:Vinícola_Terragnolo))
+Declaration(NamedIndividual(:Vinícola_VivantWines))
+############################
+#   Object Properties
+############################
+
+# Object Property: :temCidade (:temCidade)
+
+SubObjectPropertyOf(:temCidade owl:topObjectProperty)
+TransitiveObjectProperty(:temCidade)
+ObjectPropertyDomain(:temCidade :Vinho)
+ObjectPropertyRange(:temCidade :Cidade)
+
+# Object Property: :temTipo (:temTipo)
+
+SubObjectPropertyOf(:temTipo owl:topObjectProperty)
+InverseObjectProperties(:temTipo :éTipoDe)
+FunctionalObjectProperty(:temTipo)
+ObjectPropertyDomain(:temTipo :Vinho)
+ObjectPropertyRange(:temTipo :Tipo)
+
+# Object Property: :temVinhedo (:temVinhedo)
+
+SubObjectPropertyOf(:temVinhedo owl:topObjectProperty)
+InverseObjectProperties(:temVinhedo :éVinhedoDe)
+FunctionalObjectProperty(:temVinhedo)
+ObjectPropertyDomain(:temVinhedo :Vinho)
+ObjectPropertyRange(:temVinhedo :Vinhedo)
+
+# Object Property: :temVinícola (:temVinícola)
+
+SubObjectPropertyOf(:temVinícola owl:topObjectProperty)
+InverseObjectProperties(:temVinícola :éVinícolaDe)
+FunctionalObjectProperty(:temVinícola)
+ObjectPropertyDomain(:temVinícola :Vinho)
+ObjectPropertyRange(:temVinícola <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Object Property: :vinícolaTemCidade (:vinícolaTemCidade)
+
+FunctionalObjectProperty(:vinícolaTemCidade)
+ObjectPropertyDomain(:vinícolaTemCidade <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+ObjectPropertyRange(:vinícolaTemCidade :Cidade)
+
+# Object Property: :éCidadeDe (:éCidadeDe)
+
+SubObjectPropertyOf(:éCidadeDe owl:topObjectProperty)
+InverseFunctionalObjectProperty(:éCidadeDe)
+ObjectPropertyDomain(:éCidadeDe :Cidade)
+ObjectPropertyRange(:éCidadeDe :Vinho)
+
+# Object Property: :éTipoDe (:éTipoDe)
+
+SubObjectPropertyOf(:éTipoDe owl:topObjectProperty)
+InverseFunctionalObjectProperty(:éTipoDe)
+ObjectPropertyDomain(:éTipoDe :Tipo)
+ObjectPropertyRange(:éTipoDe :Vinho)
+
+# Object Property: :éUvaDe (:éUvaDe)
+
+SubObjectPropertyOf(:éUvaDe owl:topObjectProperty)
+InverseObjectProperties(:éUvaDe <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva>)
+InverseFunctionalObjectProperty(:éUvaDe)
+ObjectPropertyDomain(:éUvaDe <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+ObjectPropertyRange(:éUvaDe :Vinho)
+
+# Object Property: :éVinhedoDe (:éVinhedoDe)
+
+SubObjectPropertyOf(:éVinhedoDe owl:topObjectProperty)
+InverseFunctionalObjectProperty(:éVinhedoDe)
+ObjectPropertyDomain(:éVinhedoDe :Vinhedo)
+ObjectPropertyRange(:éVinhedoDe :Vinho)
+
+# Object Property: :éVinícolaDe (:éVinícolaDe)
+
+SubObjectPropertyOf(:éVinícolaDe owl:topObjectProperty)
+InverseFunctionalObjectProperty(:éVinícolaDe)
+ObjectPropertyDomain(:éVinícolaDe <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+ObjectPropertyRange(:éVinícolaDe :Vinho)
+
+# Object Property: <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> (<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> owl:topObjectProperty)
+InverseObjectProperties(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe>)
+FunctionalObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse>)
+ObjectPropertyDomain(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho)
+ObjectPropertyRange(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Classe)
+
+# Object Property: <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> (<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> owl:topObjectProperty)
+InverseObjectProperties(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe>)
+FunctionalObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação>)
+ObjectPropertyDomain(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho)
+ObjectPropertyRange(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Object Property: <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> (<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho)
+ObjectPropertyRange(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Object Property: <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe> (<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe> owl:topObjectProperty)
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe>)
+ObjectPropertyDomain(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe> :Classe)
+ObjectPropertyRange(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClasseDe> :Vinho)
+
+# Object Property: <http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe> (<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe> owl:topObjectProperty)
+InverseFunctionalObjectProperty(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe>)
+ObjectPropertyDomain(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe> <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+ObjectPropertyRange(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#éClassificaçãoDe> :Vinho)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :Amadurecimento (:Amadurecimento)
+
+SubDataPropertyOf(:Amadurecimento owl:topDataProperty)
+DataPropertyRange(:Amadurecimento xsd:int)
+
+# Data Property: :Olfato (:Olfato)
+
+SubDataPropertyOf(:Olfato owl:topDataProperty)
+DataPropertyRange(:Olfato xsd:string)
+
+# Data Property: :Paladar (:Paladar)
+
+SubDataPropertyOf(:Paladar owl:topDataProperty)
+DataPropertyRange(:Paladar xsd:string)
+
+# Data Property: :PotencialDeGuarda (:PotencialDeGuarda)
+
+SubDataPropertyOf(:PotencialDeGuarda owl:topDataProperty)
+DataPropertyRange(:PotencialDeGuarda xsd:string)
+
+# Data Property: :Safra (:Safra)
+
+SubDataPropertyOf(:Safra owl:topDataProperty)
+DataPropertyRange(:Safra xsd:int)
+
+# Data Property: :Temperatura (:Temperatura)
+
+SubDataPropertyOf(:Temperatura owl:topDataProperty)
+DataPropertyRange(:Temperatura xsd:string)
+
+# Data Property: :Visual (:Visual)
+
+SubDataPropertyOf(:Visual owl:topDataProperty)
+DataPropertyRange(:Visual xsd:string)
+
+# Data Property: <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> (<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> owl:topDataProperty)
+DataPropertyRange(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> xsd:int)
+
+# Data Property: <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> (<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica>)
+
+SubDataPropertyOf(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> owl:topDataProperty)
+DataPropertyRange(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> xsd:float)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva> (<http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+
+# Class: :AltaGraduaçãoAlcoólica (:AltaGraduaçãoAlcoólica)
+
+EquivalentClasses(:AltaGraduaçãoAlcoólica ObjectIntersectionOf(:Vinho DataSomeValuesFrom(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> DatatypeRestriction(xsd:float xsd:minExclusive "12.0"^^xsd:float))))
+SubClassOf(:AltaGraduaçãoAlcoólica :Vinho)
+
+# Class: :AltoFeliz (:AltoFeliz)
+
+SubClassOf(:AltoFeliz :Cidade)
+
+# Class: :AltoVolume (:AltoVolume)
+
+EquivalentClasses(:AltoVolume ObjectIntersectionOf(:Vinho DataSomeValuesFrom(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> DatatypeRestriction(xsd:int xsd:minInclusive "750"^^xsd:int))))
+SubClassOf(:AltoVolume :Vinho)
+
+# Class: :Alvarinho (:Alvarinho)
+
+SubClassOf(:Alvarinho <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Amadurecidos (:Amadurecidos)
+
+EquivalentClasses(:Amadurecidos ObjectIntersectionOf(:Vinho DataSomeValuesFrom(:Amadurecimento DatatypeRestriction(xsd:int xsd:minInclusive "0"^^xsd:int))))
+
+# Class: :AmadurecidosMaisDeUmAno (:AmadurecidosMaisDeUmAno)
+
+EquivalentClasses(:AmadurecidosMaisDeUmAno ObjectIntersectionOf(:Vinho DataSomeValuesFrom(:Amadurecimento DatatypeRestriction(xsd:int xsd:minInclusive "12"^^xsd:int))))
+SubClassOf(:AmadurecidosMaisDeUmAno :Vinho)
+
+# Class: :Americana (:Americana)
+
+SubClassOf(:Americana <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Amitié (:Amitié)
+
+SubClassOf(:Amitié <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Assemblage (:Assemblage)
+
+SubClassOf(:Assemblage <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Aurora (:Aurora)
+
+SubClassOf(:Aurora <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Bagé (:Bagé)
+
+SubClassOf(:Bagé :Cidade)
+
+# Class: :BaixaGraduaçãoAlcoólica (:BaixaGraduaçãoAlcoólica)
+
+EquivalentClasses(:BaixaGraduaçãoAlcoólica ObjectIntersectionOf(:Vinho DataSomeValuesFrom(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> DatatypeRestriction(xsd:float xsd:maxInclusive "12.0"^^xsd:float))))
+SubClassOf(:BaixaGraduaçãoAlcoólica :Vinho)
+
+# Class: :BaixoVolume (:BaixoVolume)
+
+EquivalentClasses(:BaixoVolume ObjectIntersectionOf(:Vinho DataSomeValuesFrom(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> DatatypeRestriction(xsd:int xsd:maxExclusive "750"^^xsd:int))))
+SubClassOf(:BaixoVolume :Vinho)
+
+# Class: :BentoGonçalves (:BentoGonçalves)
+
+SubClassOf(:BentoGonçalves :Cidade)
+
+# Class: :Branco (:Branco)
+
+SubClassOf(:Branco :Tipo)
+
+# Class: :BrancoDoce (:BrancoDoce)
+
+EquivalentClasses(:BrancoDoce ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temTipo :Branco) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Doce)))
+SubClassOf(:BrancoDoce :Vinho)
+
+# Class: :BrancoRosé (:BrancoRosé)
+
+EquivalentClasses(:BrancoRosé ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temTipo :Branco) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Rosé)))
+SubClassOf(:BrancoRosé :Vinho)
+
+# Class: :BrancoTinto (:BrancoTinto)
+
+EquivalentClasses(:BrancoTinto ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temTipo :Branco) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Tinto)))
+SubClassOf(:BrancoTinto :Vinho)
+
+# Class: :BuenosWines (:BuenosWines)
+
+SubClassOf(:BuenosWines <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :CampanhaGaúcha (:CampanhaGaúcha)
+
+SubClassOf(:CampanhaGaúcha :Vinhedo)
+
+# Class: :CamposDeCimaDaSerra (:CamposDeCimaDaSerra)
+
+SubClassOf(:CamposDeCimaDaSerra :Vinhedo)
+
+# Class: :Candiota (:Candiota)
+
+SubClassOf(:Candiota :Cidade)
+
+# Class: :CarbetFranc (:CarbetFranc)
+
+SubClassOf(:CarbetFranc <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :CasaMarquesPereira (:CasaMarquesPereira)
+
+SubClassOf(:CasaMarquesPereira <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :CasaValduga (:CasaValduga)
+
+SubClassOf(:CasaValduga <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :CasaVenturini (:CasaVenturini)
+
+SubClassOf(:CasaVenturini <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :CaxiasDoSul (:CaxiasDoSul)
+
+SubClassOf(:CaxiasDoSul :Cidade)
+
+# Class: :Chardonnay (:Chardonnay)
+
+SubClassOf(:Chardonnay <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Cidade (:Cidade)
+
+
+# Class: :Classe (:Classe)
+
+
+# Class: :CãoPerdigueiro (:CãoPerdigueiro)
+
+SubClassOf(:CãoPerdigueiro <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :DeMesa (:DeMesa)
+
+SubClassOf(:DeMesa :Classe)
+
+# Class: :DelGrano (:DelGrano)
+
+SubClassOf(:DelGrano <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Demi-sec (:Demi-sec)
+
+SubClassOf(:Demi-sec <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :Doce (:Doce)
+
+SubClassOf(:Doce <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :DoceOuMeioDoce (:DoceOuMeioDoce)
+
+EquivalentClasses(:DoceOuMeioDoce ObjectIntersectionOf(:Vinho ObjectUnionOf(ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Doce) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :MeioDoce))))
+SubClassOf(:DoceOuMeioDoce :Vinho)
+
+# Class: :DonAffonso (:DonAffonso)
+
+SubClassOf(:DonAffonso <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :DonBonifácio (:DonBonifácio)
+
+SubClassOf(:DonBonifácio <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :DonGuerino (:DonGuerino)
+
+SubClassOf(:DonGuerino <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Espumante (:Espumante)
+
+SubClassOf(:Espumante :Classe)
+
+# Class: :EstradaReal (:EstradaReal)
+
+SubClassOf(:EstradaReal <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :EstânciaParaizo (:EstânciaParaizo)
+
+SubClassOf(:EstânciaParaizo <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Farroupilha (:Farroupilha)
+
+SubClassOf(:Farroupilha :Cidade)
+
+# Class: :Fino (:Fino)
+
+SubClassOf(:Fino :Classe)
+
+# Class: :FloresDaCunha (:FloresDaCunha)
+
+SubClassOf(:FloresDaCunha :Cidade)
+
+# Class: :Frisante (:Frisante)
+
+SubClassOf(:Frisante :Classe)
+
+# Class: :FrisanteSuave (:FrisanteSuave)
+
+SubClassOf(:FrisanteSuave <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :Galiotto (:Galiotto)
+
+SubClassOf(:Galiotto <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Góes (:Góes)
+
+SubClassOf(:Góes <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :LagoaGrande (:LagoaGrande)
+
+SubClassOf(:LagoaGrande :Cidade)
+
+# Class: :Leve (:Leve)
+
+SubClassOf(:Leve :Classe)
+
+# Class: :Licoroso (:Licoroso)
+
+SubClassOf(:Licoroso :Classe)
+
+# Class: :LicorosoOuNobre (:LicorosoOuNobre)
+
+EquivalentClasses(:LicorosoOuNobre ObjectIntersectionOf(:Vinho ObjectUnionOf(ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Licoroso) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Nobre))))
+SubClassOf(:LicorosoOuNobre :Vinho)
+
+# Class: :Lorena (:Lorena)
+
+SubClassOf(:Lorena <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :LuizArgenta (:LuizArgenta)
+
+SubClassOf(:LuizArgenta <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Malbec (:Malbec)
+
+SubClassOf(:Malbec <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :MeioDoce (:MeioDoce)
+
+SubClassOf(:MeioDoce <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :Merlot (:Merlot)
+
+SubClassOf(:Merlot <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :MonteBeloDoSul (:MonteBeloDoSul)
+
+SubClassOf(:MonteBeloDoSul :Cidade)
+
+# Class: :MonteReale (:MonteReale)
+
+SubClassOf(:MonteReale <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Moscato (:Moscato)
+
+SubClassOf(:Moscato <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Nature (:Nature)
+
+SubClassOf(:Nature <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :Niágara (:Niágara)
+
+SubClassOf(:Niágara <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Nobre (:Nobre)
+
+SubClassOf(:Nobre :Classe)
+
+# Class: :NovaAliança (:NovaAliança)
+
+SubClassOf(:NovaAliança <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Panizzon (:Panizzon)
+
+SubClassOf(:Panizzon <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :PinotNoir (:PinotNoir)
+
+SubClassOf(:PinotNoir <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Prosecco (:Prosecco)
+
+SubClassOf(:Prosecco <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :RioDeJaneiro (:RioDeJaneiro)
+
+SubClassOf(:RioDeJaneiro :Cidade)
+
+# Class: :RioSol (:RioSol)
+
+SubClassOf(:RioSol <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Rosé (:Rosé)
+
+SubClassOf(:Rosé :Tipo)
+
+# Class: :SafraAntiga (:SafraAntiga)
+
+EquivalentClasses(:SafraAntiga ObjectIntersectionOf(:Vinho DataSomeValuesFrom(:Safra DatatypeRestriction(xsd:int xsd:maxInclusive "2020"^^xsd:int))))
+SubClassOf(:SafraAntiga :Vinho)
+
+# Class: :SafraRecente (:SafraRecente)
+
+EquivalentClasses(:SafraRecente ObjectIntersectionOf(:Vinho DataSomeValuesFrom(:Safra DatatypeRestriction(xsd:int xsd:minInclusive "2021"^^xsd:int))))
+SubClassOf(:SafraRecente :Vinho)
+
+# Class: :Safrados (:Safrados)
+
+EquivalentClasses(:Safrados ObjectIntersectionOf(:Vinho DataSomeValuesFrom(:Safra DatatypeRestriction(xsd:int xsd:minInclusive "0"^^xsd:int))))
+SubClassOf(:Safrados :Vinho)
+
+# Class: :Salton (:Salton)
+
+SubClassOf(:Salton <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Sangiovese (:Sangiovese)
+
+SubClassOf(:Sangiovese <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Seco (:Seco)
+
+SubClassOf(:Seco <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :SecoOuRosé (:SecoOuRosé)
+
+EquivalentClasses(:SecoOuRosé ObjectIntersectionOf(:Vinho ObjectUnionOf(ObjectAllValuesFrom(:temTipo :Rosé) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Seco))))
+SubClassOf(:SecoOuRosé :Vinho)
+
+# Class: :SecoRosé (:SecoRosé)
+
+EquivalentClasses(:SecoRosé ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temTipo :Rosé) ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Seco)))
+SubClassOf(:SecoRosé :Vinho)
+
+# Class: :SerraDoSudeste (:SerraDoSudeste)
+
+SubClassOf(:SerraDoSudeste :Vinhedo)
+
+# Class: :SerraGaúcha (:SerraGaúcha)
+
+SubClassOf(:SerraGaúcha :Vinhedo)
+
+# Class: :Shiraz (:Shiraz)
+
+SubClassOf(:Shiraz <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Suave (:Suave)
+
+SubClassOf(:Suave <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :SuaveRosé (:SuaveRosé)
+
+SubClassOf(:SuaveRosé <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+# Class: :SãoGonçalodoSapucaí (:SãoGonçalodoSapucaí)
+
+SubClassOf(:SãoGonçalodoSapucaí :Vinhedo)
+
+# Class: :SãoRoque (:SãoRoque)
+
+SubClassOf(:SãoRoque :Cidade)
+
+# Class: :SãoRoques (:SãoRoques)
+
+SubClassOf(:SãoRoques :Vinhedo)
+
+# Class: :Tannat (:Tannat)
+
+SubClassOf(:Tannat <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>)
+
+# Class: :Terragnolo (:Terragnolo)
+
+SubClassOf(:Terragnolo <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: :Tinto (:Tinto)
+
+SubClassOf(:Tinto :Tipo)
+
+# Class: :Tipo (:Tipo)
+
+
+# Class: :TrêsCorações (:TrêsCorações)
+
+SubClassOf(:TrêsCorações :Cidade)
+
+# Class: :ValeDoSãoFrancisco (:ValeDoSãoFrancisco)
+
+SubClassOf(:ValeDoSãoFrancisco :Vinhedo)
+
+# Class: :ValedosVinhedos (:ValedosVinhedos)
+
+SubClassOf(:ValedosVinhedos :Vinhedo)
+
+# Class: :Vinhedo (:Vinhedo)
+
+
+# Class: :VinhedoCampanhaGaúcha (:VinhedoCampanhaGaúcha)
+
+EquivalentClasses(:VinhedoCampanhaGaúcha ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :CampanhaGaúcha)))
+SubClassOf(:VinhedoCampanhaGaúcha :Vinho)
+
+# Class: :VinhedoSerraDoSudeste (:VinhedoSerraDoSudeste)
+
+EquivalentClasses(:VinhedoSerraDoSudeste ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :SerraDoSudeste)))
+SubClassOf(:VinhedoSerraDoSudeste :Vinho)
+
+# Class: :VinhedoSerraGaúcha (:VinhedoSerraGaúcha)
+
+EquivalentClasses(:VinhedoSerraGaúcha ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :SerraGaúcha)))
+SubClassOf(:VinhedoSerraGaúcha :Vinho)
+
+# Class: :VinhedoSãoGonçaloDoSapucai (:VinhedoSãoGonçaloDoSapucai)
+
+EquivalentClasses(:VinhedoSãoGonçaloDoSapucai ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :SãoGonçalodoSapucaí)))
+SubClassOf(:VinhedoSãoGonçaloDoSapucai :Vinho)
+
+# Class: :VinhedoSãoRoque (:VinhedoSãoRoque)
+
+EquivalentClasses(:VinhedoSãoRoque ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :SãoRoques)))
+SubClassOf(:VinhedoSãoRoque :Vinho)
+
+# Class: :VinhedoValeDoSãoFrancisco (:VinhedoValeDoSãoFrancisco)
+
+EquivalentClasses(:VinhedoValeDoSãoFrancisco ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :ValeDoSãoFrancisco)))
+SubClassOf(:VinhedoValeDoSãoFrancisco :Vinho)
+
+# Class: :VinhedoValeDosVinhedos (:VinhedoValeDosVinhedos)
+
+EquivalentClasses(:VinhedoValeDosVinhedos ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(:temVinhedo :ValedosVinhedos)))
+SubClassOf(:VinhedoValeDosVinhedos :Vinho)
+
+# Class: :Vinho (:Vinho)
+
+SubClassOf(:Vinho ObjectSomeValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> <http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva>))
+SubClassOf(:Vinho ObjectAllValuesFrom(:temTipo :Tipo))
+SubClassOf(:Vinho ObjectAllValuesFrom(:temVinícola <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>))
+SubClassOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Classe))
+SubClassOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>))
+SubClassOf(:Vinho DataAllValuesFrom(:Amadurecimento xsd:int))
+SubClassOf(:Vinho DataAllValuesFrom(:Olfato xsd:string))
+SubClassOf(:Vinho DataAllValuesFrom(:Paladar xsd:string))
+SubClassOf(:Vinho DataAllValuesFrom(:PotencialDeGuarda xsd:string))
+SubClassOf(:Vinho DataAllValuesFrom(:Safra xsd:int))
+SubClassOf(:Vinho DataAllValuesFrom(:Temperatura xsd:string))
+SubClassOf(:Vinho DataAllValuesFrom(:Visual xsd:string))
+SubClassOf(:Vinho DataAllValuesFrom(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> xsd:int))
+SubClassOf(:Vinho DataAllValuesFrom(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> xsd:float))
+
+# Class: :VinhoDeMesa (:VinhoDeMesa)
+
+EquivalentClasses(:VinhoDeMesa ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :DeMesa)))
+SubClassOf(:VinhoDeMesa :Vinho)
+
+# Class: :VinhoEspumante (:VinhoEspumante)
+
+EquivalentClasses(:VinhoEspumante ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Espumante)))
+SubClassOf(:VinhoEspumante :Vinho)
+
+# Class: :VinhoFino (:VinhoFino)
+
+EquivalentClasses(:VinhoFino ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Fino)))
+SubClassOf(:VinhoFino :Vinho)
+
+# Class: :VinhoFrisante (:VinhoFrisante)
+
+EquivalentClasses(:VinhoFrisante ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Frisante)))
+SubClassOf(:VinhoFrisante :Vinho)
+
+# Class: :VinhoLeve (:VinhoLeve)
+
+EquivalentClasses(:VinhoLeve ObjectIntersectionOf(:Vinho ObjectAllValuesFrom(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Leve)))
+SubClassOf(:VinhoLeve :Vinho)
+
+# Class: :VivantWines (:VivantWines)
+
+SubClassOf(:VivantWines <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+# Class: <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola> (<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola>)
+
+SubClassOf(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola> ObjectAllValuesFrom(:temCidade :Cidade))
+
+# Class: <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação> (<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Cidade_AltoFeliz (:Cidade_AltoFeliz)
+
+ClassAssertion(:AltoFeliz :Cidade_AltoFeliz)
+
+# Individual: :Cidade_Bagé (:Cidade_Bagé)
+
+ClassAssertion(:Bagé :Cidade_Bagé)
+
+# Individual: :Cidade_BentoGonçalves (:Cidade_BentoGonçalves)
+
+ClassAssertion(:BentoGonçalves :Cidade_BentoGonçalves)
+
+# Individual: :Cidade_Candiota (:Cidade_Candiota)
+
+ClassAssertion(:Candiota :Cidade_Candiota)
+
+# Individual: :Cidade_CaxiasDoSul (:Cidade_CaxiasDoSul)
+
+ClassAssertion(:CaxiasDoSul :Cidade_CaxiasDoSul)
+
+# Individual: :Cidade_Farroupilha (:Cidade_Farroupilha)
+
+ClassAssertion(:Farroupilha :Cidade_Farroupilha)
+
+# Individual: :Cidade_FloresDaCunha (:Cidade_FloresDaCunha)
+
+ClassAssertion(:FloresDaCunha :Cidade_FloresDaCunha)
+
+# Individual: :Cidade_LagoaGrande (:Cidade_LagoaGrande)
+
+ClassAssertion(:LagoaGrande :Cidade_LagoaGrande)
+
+# Individual: :Cidade_MonteBeloDoSul (:Cidade_MonteBeloDoSul)
+
+ClassAssertion(:MonteBeloDoSul :Cidade_MonteBeloDoSul)
+
+# Individual: :Cidade_RioDeJaneiro (:Cidade_RioDeJaneiro)
+
+ClassAssertion(:RioDeJaneiro :Cidade_RioDeJaneiro)
+
+# Individual: :Cidade_SãoRoque (:Cidade_SãoRoque)
+
+ClassAssertion(:SãoRoque :Cidade_SãoRoque)
+
+# Individual: :Cidade_TrêsCorações (:Cidade_TrêsCorações)
+
+ClassAssertion(:TrêsCorações :Cidade_TrêsCorações)
+
+# Individual: :Classe_DeMesa (:Classe_DeMesa)
+
+ClassAssertion(:DeMesa :Classe_DeMesa)
+
+# Individual: :Classe_Espumante (:Classe_Espumante)
+
+ClassAssertion(:Espumante :Classe_Espumante)
+
+# Individual: :Classe_Fino (:Classe_Fino)
+
+ClassAssertion(:Fino :Classe_Fino)
+
+# Individual: :Classe_Frisante (:Classe_Frisante)
+
+ClassAssertion(:Frisante :Classe_Frisante)
+
+# Individual: :Classe_Leve (:Classe_Leve)
+
+ClassAssertion(:Leve :Classe_Leve)
+
+# Individual: :Classe_Licoroso (:Classe_Licoroso)
+
+ClassAssertion(:Licoroso :Classe_Licoroso)
+
+# Individual: :Classe_Nobre (:Classe_Nobre)
+
+ClassAssertion(:Nobre :Classe_Nobre)
+
+# Individual: :Classificação_Demi-sec (:Classificação_Demi-sec)
+
+ClassAssertion(:Demi-sec :Classificação_Demi-sec)
+
+# Individual: :Classificação_Doce (:Classificação_Doce)
+
+ClassAssertion(:Doce :Classificação_Doce)
+
+# Individual: :Classificação_FrisanteSuave (:Classificação_FrisanteSuave)
+
+ClassAssertion(:FrisanteSuave :Classificação_FrisanteSuave)
+
+# Individual: :Classificação_MeioDoce (:Classificação_MeioDoce)
+
+ClassAssertion(:MeioDoce :Classificação_MeioDoce)
+
+# Individual: :Classificação_Nature (:Classificação_Nature)
+
+ClassAssertion(:Nature :Classificação_Nature)
+
+# Individual: :Classificação_Prosecco (:Classificação_Prosecco)
+
+ClassAssertion(:Prosecco :Classificação_Prosecco)
+
+# Individual: :Classificação_Seco (:Classificação_Seco)
+
+ClassAssertion(:Seco :Classificação_Seco)
+
+# Individual: :Classificação_Suave (:Classificação_Suave)
+
+ClassAssertion(:Suave :Classificação_Suave)
+
+# Individual: :Classificação_SuaveRosé (:Classificação_SuaveRosé)
+
+ClassAssertion(:SuaveRosé :Classificação_SuaveRosé)
+
+# Individual: :Tipo_Branco (:Tipo_Branco)
+
+ClassAssertion(:Branco :Tipo_Branco)
+
+# Individual: :Tipo_Rosé (:Tipo_Rosé)
+
+ClassAssertion(:Rosé :Tipo_Rosé)
+
+# Individual: :Tipo_Tinto (:Tipo_Tinto)
+
+ClassAssertion(:Tinto :Tipo_Tinto)
+
+# Individual: :Uva_Alvarinho (:Uva_Alvarinho)
+
+ClassAssertion(:Alvarinho :Uva_Alvarinho)
+
+# Individual: :Uva_Americana (:Uva_Americana)
+
+ClassAssertion(:Americana :Uva_Americana)
+
+# Individual: :Uva_Assemblage (:Uva_Assemblage)
+
+ClassAssertion(:Assemblage :Uva_Assemblage)
+
+# Individual: :Uva_CarbetFranc (:Uva_CarbetFranc)
+
+ClassAssertion(:CarbetFranc :Uva_CarbetFranc)
+
+# Individual: :Uva_Chardonnay (:Uva_Chardonnay)
+
+ClassAssertion(:Chardonnay :Uva_Chardonnay)
+
+# Individual: :Uva_Lorena (:Uva_Lorena)
+
+ClassAssertion(:Lorena :Uva_Lorena)
+
+# Individual: :Uva_Malbec (:Uva_Malbec)
+
+ClassAssertion(:Malbec :Uva_Malbec)
+
+# Individual: :Uva_Merlot (:Uva_Merlot)
+
+ClassAssertion(:Merlot :Uva_Merlot)
+
+# Individual: :Uva_Moscato (:Uva_Moscato)
+
+ClassAssertion(:Moscato :Uva_Moscato)
+
+# Individual: :Uva_Niágara (:Uva_Niágara)
+
+ClassAssertion(:Niágara :Uva_Niágara)
+
+# Individual: :Uva_PinotNoir (:Uva_PinotNoir)
+
+ClassAssertion(:PinotNoir :Uva_PinotNoir)
+
+# Individual: :Uva_Sangiovese (:Uva_Sangiovese)
+
+ClassAssertion(:Sangiovese :Uva_Sangiovese)
+
+# Individual: :Uva_Shiraz (:Uva_Shiraz)
+
+ClassAssertion(:Shiraz :Uva_Shiraz)
+
+# Individual: :Uva_Tannat (:Uva_Tannat)
+
+ClassAssertion(:Tannat :Uva_Tannat)
+
+# Individual: :Vinhedo_CampanhaGaúcha (:Vinhedo_CampanhaGaúcha)
+
+ClassAssertion(:CampanhaGaúcha :Vinhedo_CampanhaGaúcha)
+
+# Individual: :Vinhedo_CamposDeCimaDaSerra (:Vinhedo_CamposDeCimaDaSerra)
+
+ClassAssertion(:CamposDeCimaDaSerra :Vinhedo_CamposDeCimaDaSerra)
+
+# Individual: :Vinhedo_SerraDoSudeste (:Vinhedo_SerraDoSudeste)
+
+ClassAssertion(:SerraDoSudeste :Vinhedo_SerraDoSudeste)
+
+# Individual: :Vinhedo_SerraGaúcha (:Vinhedo_SerraGaúcha)
+
+ClassAssertion(:SerraGaúcha :Vinhedo_SerraGaúcha)
+
+# Individual: :Vinhedo_SãoGonçalodoSapucaí (:Vinhedo_SãoGonçalodoSapucaí)
+
+ClassAssertion(:SãoGonçalodoSapucaí :Vinhedo_SãoGonçalodoSapucaí)
+
+# Individual: :Vinhedo_SãoRoque (:Vinhedo_SãoRoque)
+
+ClassAssertion(:SãoRoques :Vinhedo_SãoRoque)
+
+# Individual: :Vinhedo_ValeDoSãoFrancisco (:Vinhedo_ValeDoSãoFrancisco)
+
+ClassAssertion(:ValeDoSãoFrancisco :Vinhedo_ValeDoSãoFrancisco)
+
+# Individual: :Vinhedo_ValedosVinhedos (:Vinhedo_ValedosVinhedos)
+
+ClassAssertion(:ValedosVinhedos :Vinhedo_ValedosVinhedos)
+
+# Individual: :Vinho_AliançaChardonnay (:Vinho_AliançaChardonnay)
+
+ObjectPropertyAssertion(:temTipo :Vinho_AliançaChardonnay :Tipo_Branco)
+ObjectPropertyAssertion(:temVinhedo :Vinho_AliançaChardonnay :Vinhedo_CampanhaGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_AliançaChardonnay :Vinícola_NovaAliança)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_AliançaChardonnay :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_AliançaChardonnay :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_AliançaChardonnay :Uva_Chardonnay)
+DataPropertyAssertion(:Amadurecimento :Vinho_AliançaChardonnay "3"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_AliançaChardonnay "Aromas de frutas tropicais, mel e cítricos"^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_AliançaChardonnay "Ótima persistência, boa refrescância e acidez moderada."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_AliançaChardonnay "5 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_AliançaChardonnay "2020"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_AliançaChardonnay "10-12"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_AliançaChardonnay "Amarelo palha com reflexos dourados."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_AliançaChardonnay "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_AliançaChardonnay "12.5"^^xsd:float)
+
+# Individual: :Vinho_AmitiéChardonnayOAKBarrel (:Vinho_AmitiéChardonnayOAKBarrel)
+
+ObjectPropertyAssertion(:temTipo :Vinho_AmitiéChardonnayOAKBarrel :Tipo_Branco)
+ObjectPropertyAssertion(:temVinhedo :Vinho_AmitiéChardonnayOAKBarrel :Vinhedo_CampanhaGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_AmitiéChardonnayOAKBarrel :Vinícola_Amitié)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_AmitiéChardonnayOAKBarrel :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_AmitiéChardonnayOAKBarrel :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_AmitiéChardonnayOAKBarrel :Uva_Chardonnay)
+DataPropertyAssertion(:Amadurecimento :Vinho_AmitiéChardonnayOAKBarrel "12"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_AmitiéChardonnayOAKBarrel "Um vinho marcante com notas de frutas cítricas e amanteigadas provenientes da passagem em barrica de carvalho."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_AmitiéChardonnayOAKBarrel "Vinho complexo e untuoso, com acidez equilibrada e excelente retrogosto."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_AmitiéChardonnayOAKBarrel "5 à 7 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_AmitiéChardonnayOAKBarrel "2020"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_AmitiéChardonnayOAKBarrel "8-10"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_AmitiéChardonnayOAKBarrel "Límpido e brilhante, coloração amarelo palha com reflexos dourados."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_AmitiéChardonnayOAKBarrel "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_AmitiéChardonnayOAKBarrel "14.0"^^xsd:float)
+
+# Individual: :Vinho_Aurora90_AnosBlendHistórico (:Vinho_Aurora90_AnosBlendHistórico)
+
+ObjectPropertyAssertion(:temTipo :Vinho_Aurora90_AnosBlendHistórico :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_Aurora90_AnosBlendHistórico :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_Aurora90_AnosBlendHistórico :Vinícola_Aurora)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_Aurora90_AnosBlendHistórico :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_Aurora90_AnosBlendHistórico :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_Aurora90_AnosBlendHistórico :Uva_Assemblage)
+DataPropertyAssertion(:Amadurecimento :Vinho_Aurora90_AnosBlendHistórico "12"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_Aurora90_AnosBlendHistórico "Aroma de alta intensidade lembrando café, tabaco, baunilha, mentol, fruta vermelha madura (ameixa) e fruta preta madura (cassis)."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_Aurora90_AnosBlendHistórico "Em boca é um vinho equilibrado (álcool/acidez) com acidez média. Persistente, presença mineral, taninos aveludados bem presentes."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_Aurora90_AnosBlendHistórico "10 anos"^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_Aurora90_AnosBlendHistórico "12-16"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_Aurora90_AnosBlendHistórico "Rubi intenso com relexos vermelho profundo."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_Aurora90_AnosBlendHistórico "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_Aurora90_AnosBlendHistórico "12.5"^^xsd:float)
+
+# Individual: :Vinho_CasaValdugaTerroirPinotNoir (:Vinho_CasaValdugaTerroirPinotNoir)
+
+ObjectPropertyAssertion(:temTipo :Vinho_CasaValdugaTerroirPinotNoir :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_CasaValdugaTerroirPinotNoir :Vinhedo_SerraDoSudeste)
+ObjectPropertyAssertion(:temVinícola :Vinho_CasaValdugaTerroirPinotNoir :Vinícola_CasaValduga)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_CasaValdugaTerroirPinotNoir :Classe_Espumante)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_CasaValdugaTerroirPinotNoir :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_CasaValdugaTerroirPinotNoir :Uva_PinotNoir)
+DataPropertyAssertion(:Amadurecimento :Vinho_CasaValdugaTerroirPinotNoir "8"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_CasaValdugaTerroirPinotNoir "Bouquet complexo que lembra frutas maduras como cereja e morango aliados a aromas de marmelo e notas atribuídas pelo carvalho, como anis, tabaco e um leve toque mentolado."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_CasaValdugaTerroirPinotNoir "A expressão do Pinot Noir está impressa neste vinho, que possui taninos macios e excelente acidez. Tal combinação nos apresenta um resultado leve e fresco, onde as características varietais são ainda mais evidentes em seu retrogosto essencialmente frutado."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_CasaValdugaTerroirPinotNoir "4 à 6 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_CasaValdugaTerroirPinotNoir "2020"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_CasaValdugaTerroirPinotNoir "14-16"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_CasaValdugaTerroirPinotNoir "Coloração vermelho rubi, brilhante e translúcido."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_CasaValdugaTerroirPinotNoir "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_CasaValdugaTerroirPinotNoir "13.5"^^xsd:float)
+
+# Individual: :Vinho_CãoPerdigueiroMerlotNouveau (:Vinho_CãoPerdigueiroMerlotNouveau)
+
+ObjectPropertyAssertion(:temTipo :Vinho_CãoPerdigueiroMerlotNouveau :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_CãoPerdigueiroMerlotNouveau :Vinhedo_CamposDeCimaDaSerra)
+ObjectPropertyAssertion(:temVinícola :Vinho_CãoPerdigueiroMerlotNouveau :Vinícola_CãoPerdigueiro)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_CãoPerdigueiroMerlotNouveau :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_CãoPerdigueiroMerlotNouveau :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_CãoPerdigueiroMerlotNouveau :Uva_Merlot)
+DataPropertyAssertion(:Amadurecimento :Vinho_CãoPerdigueiroMerlotNouveau "4"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_CãoPerdigueiroMerlotNouveau "Aromas muito elegantes, com leveza convidativa que mesclam notas de frutas vermelhas frescas, leves toques minerais e algo de ervas finas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_CãoPerdigueiroMerlotNouveau "Na boca, muita elegância, frescor, com acides delicada e um grande final."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_CãoPerdigueiroMerlotNouveau "3 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_CãoPerdigueiroMerlotNouveau "2021"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_CãoPerdigueiroMerlotNouveau "12-14"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_CãoPerdigueiroMerlotNouveau "Coloração rubi de menor intensidade."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_CãoPerdigueiroMerlotNouveau "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_CãoPerdigueiroMerlotNouveau "13.0"^^xsd:float)
+
+# Individual: :Vinho_DelGranoFrisanteRoseSuaveLata (:Vinho_DelGranoFrisanteRoseSuaveLata)
+
+ObjectPropertyAssertion(:temTipo :Vinho_DelGranoFrisanteRoseSuaveLata :Tipo_Rosé)
+ObjectPropertyAssertion(:temVinhedo :Vinho_DelGranoFrisanteRoseSuaveLata :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_DelGranoFrisanteRoseSuaveLata :Vinícola_DelGrano)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_DelGranoFrisanteRoseSuaveLata :Classe_Frisante)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_DelGranoFrisanteRoseSuaveLata :Classificação_FrisanteSuave)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_DelGranoFrisanteRoseSuaveLata :Uva_Americana)
+DataPropertyAssertion(:Olfato :Vinho_DelGranoFrisanteRoseSuaveLata "Característico, notas típicas das uvas americanas como morangos, cerejas e amora e notas florais como rosas e violeta."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_DelGranoFrisanteRoseSuaveLata "É um vinho para as pessoas que preferem um gosto mais adocicado e com o sabor da uva."^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_DelGranoFrisanteRoseSuaveLata "4-6"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_DelGranoFrisanteRoseSuaveLata "Sedutora tonalidade rosé cereja."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_DelGranoFrisanteRoseSuaveLata "269"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_DelGranoFrisanteRoseSuaveLata "10.0"^^xsd:float)
+
+# Individual: :Vinho_DonAffonsoParoleDiFamigliaAlvarinho (:Vinho_DonAffonsoParoleDiFamigliaAlvarinho)
+
+ObjectPropertyAssertion(:temTipo :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Tipo_Branco)
+ObjectPropertyAssertion(:temVinhedo :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Vinícola_DonAffonso)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_DonAffonsoParoleDiFamigliaAlvarinho :Uva_Alvarinho)
+DataPropertyAssertion(:Olfato :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "Aroma intenso de frutas brancas e amarelas como banana, maçã, melão, pera, abacaxi, lichia, pêssego e butiá; também com notas florais, amanteigado e nozes, presença marcante da madeira de carvalho, baunilha e chocolate branco."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "Apresenta frescor intenso com acidez marcante, leve dulsor proveniente do carvalho, boa jovialidade e volume de boca. É elegante, equilibrado, untuoso, com retrogosto frutado e persistente."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "5 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "2021"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "8-12"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "Vinho com visual límpido, brilhante, dourado."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_DonAffonsoParoleDiFamigliaAlvarinho "13.2"^^xsd:float)
+
+# Individual: :Vinho_DonGuerinoAvvioBrancoSuave (:Vinho_DonGuerinoAvvioBrancoSuave)
+
+ObjectPropertyAssertion(:temTipo :Vinho_DonGuerinoAvvioBrancoSuave :Tipo_Branco)
+ObjectPropertyAssertion(:temVinhedo :Vinho_DonGuerinoAvvioBrancoSuave :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_DonGuerinoAvvioBrancoSuave :Vinícola_DonGuerino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_DonGuerinoAvvioBrancoSuave :Uva_Assemblage)
+DataPropertyAssertion(:Olfato :Vinho_DonGuerinoAvvioBrancoSuave "Aromas a frutas de polpa branca e floral."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_DonGuerinoAvvioBrancoSuave "Em boca apresenta uma entrada doce, com boa intensidade aromática e persistência."^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_DonGuerinoAvvioBrancoSuave "2017"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_DonGuerinoAvvioBrancoSuave "5-7"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_DonGuerinoAvvioBrancoSuave "Coloração amarelo clara."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_DonGuerinoAvvioBrancoSuave "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_DonGuerinoAvvioBrancoSuave "12.0"^^xsd:float)
+
+# Individual: :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. (:Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P.)
+
+ObjectPropertyAssertion(:temTipo :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Tipo_Rosé)
+ObjectPropertyAssertion(:temVinhedo :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Vinhedo_CampanhaGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Vinícola_EstânciaParaizo)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Classe_Espumante)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Classificação_Nature)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. :Uva_Shiraz)
+DataPropertyAssertion(:Olfato :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "Aromas de cassis, morango, pitanga, ameixa preta, nuts e especiarias, amora , mentolado."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "Produto equilibrado, cremoso e com ótimo volume de boca."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "5 a 10 anos"^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "6-10"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "Coloração cereja de média intensidade, brilhante, com borbulhas finas, delicadas e persistentes."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_EspumanteEstânciaParaizoGaïdaNatureRoséI.P. "12.0"^^xsd:float)
+
+# Individual: :Vinho_GaliottoBrancoSuave (:Vinho_GaliottoBrancoSuave)
+
+ObjectPropertyAssertion(:temTipo :Vinho_GaliottoBrancoSuave :Tipo_Branco)
+ObjectPropertyAssertion(:temVinhedo :Vinho_GaliottoBrancoSuave :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_GaliottoBrancoSuave :Vinícola_Galiotto)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_GaliottoBrancoSuave :Classe_DeMesa)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_GaliottoBrancoSuave :Classificação_Suave)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_GaliottoBrancoSuave :Uva_Niágara)
+DataPropertyAssertion(:Olfato :Vinho_GaliottoBrancoSuave "Aroma cítrico e de grande intensidade."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_GaliottoBrancoSuave "Ao paladar se demonstra um vinho leve, jovem, de relevante frescor e dulçor completamente equilibrado. Muito frutado e de longa persistência gustativa."^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_GaliottoBrancoSuave "6-9"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_GaliottoBrancoSuave "Coloração amarelo palha com altivo brilho."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_GaliottoBrancoSuave "375"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_GaliottoBrancoSuave "10.0"^^xsd:float)
+
+# Individual: :Vinho_GalloRossoDiVenturiniDemi-Sec (:Vinho_GalloRossoDiVenturiniDemi-Sec)
+
+ObjectPropertyAssertion(:temTipo :Vinho_GalloRossoDiVenturiniDemi-Sec :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinícola :Vinho_GalloRossoDiVenturiniDemi-Sec :Vinícola_CasaVenturini)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_GalloRossoDiVenturiniDemi-Sec :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_GalloRossoDiVenturiniDemi-Sec :Classificação_Demi-sec)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_GalloRossoDiVenturiniDemi-Sec :Uva_Assemblage)
+DataPropertyAssertion(:Olfato :Vinho_GalloRossoDiVenturiniDemi-Sec "Frutas vermelhas e especiarias."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_GalloRossoDiVenturiniDemi-Sec "Apresenta ataque doce, equilíbrio de acidez e boa estrutura."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_GalloRossoDiVenturiniDemi-Sec "2 anos"^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_GalloRossoDiVenturiniDemi-Sec "10-12"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_GalloRossoDiVenturiniDemi-Sec "Coloração intensa com tonalidade rubi violáceo."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_GalloRossoDiVenturiniDemi-Sec "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_GalloRossoDiVenturiniDemi-Sec "12.1"^^xsd:float)
+
+# Individual: :Vinho_HabitatPinotNoir (:Vinho_HabitatPinotNoir)
+
+ObjectPropertyAssertion(:temTipo :Vinho_HabitatPinotNoir :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_HabitatPinotNoir :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_HabitatPinotNoir :Vinícola_DonBonifácio)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_HabitatPinotNoir :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_HabitatPinotNoir :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_HabitatPinotNoir :Uva_PinotNoir)
+DataPropertyAssertion(:Olfato :Vinho_HabitatPinotNoir "Olfativo com notas de hibisco, framboesa, cereja e amora."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_HabitatPinotNoir "Paladar envolvente, fresco, acidez equilibrada."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_HabitatPinotNoir "5 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_HabitatPinotNoir "2018"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_HabitatPinotNoir "14-16"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_HabitatPinotNoir "Límpido e brilhante, rubi não intenso."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_HabitatPinotNoir "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_HabitatPinotNoir "12.5"^^xsd:float)
+
+# Individual: :Vinho_Luiz_ArgentaCaveCabernetFranc (:Vinho_Luiz_ArgentaCaveCabernetFranc)
+
+ObjectPropertyAssertion(:temTipo :Vinho_Luiz_ArgentaCaveCabernetFranc :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_Luiz_ArgentaCaveCabernetFranc :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_Luiz_ArgentaCaveCabernetFranc :Vinícola_LuizArgenta)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_Luiz_ArgentaCaveCabernetFranc :Classe_Nobre)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_Luiz_ArgentaCaveCabernetFranc :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_Luiz_ArgentaCaveCabernetFranc :Uva_CarbetFranc)
+DataPropertyAssertion(:Amadurecimento :Vinho_Luiz_ArgentaCaveCabernetFranc "12"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_Luiz_ArgentaCaveCabernetFranc "Aromas delicados e harmônicos, muito intensos, que lembram frutas vermelhas, compotas, especiarias, pimenta preta, chocolate e café tostado. Características que mostram uma perfeita maturação em carvalho francês."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_Luiz_ArgentaCaveCabernetFranc "Vinho muito estruturado, e ótimo volume de boca. Taninos evoluídos. Possui uma acidez equilibrada e uma elevada persistência gustativa."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_Luiz_ArgentaCaveCabernetFranc "10 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_Luiz_ArgentaCaveCabernetFranc "2017"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_Luiz_ArgentaCaveCabernetFranc "16-18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_Luiz_ArgentaCaveCabernetFranc "Vermelho granada intenso."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_Luiz_ArgentaCaveCabernetFranc "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_Luiz_ArgentaCaveCabernetFranc "14.0"^^xsd:float)
+
+# Individual: :Vinho_MarcusJamesReservadoRosé (:Vinho_MarcusJamesReservadoRosé)
+
+ObjectPropertyAssertion(:temTipo :Vinho_MarcusJamesReservadoRosé :Tipo_Rosé)
+ObjectPropertyAssertion(:temVinhedo :Vinho_MarcusJamesReservadoRosé :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_MarcusJamesReservadoRosé :Vinícola_Aurora)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_MarcusJamesReservadoRosé :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_MarcusJamesReservadoRosé :Classificação_MeioDoce)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_MarcusJamesReservadoRosé :Uva_Merlot)
+DataPropertyAssertion(:Olfato :Vinho_MarcusJamesReservadoRosé "Aroma destacado de frutas vermelhas frescas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_MarcusJamesReservadoRosé "Apresenta um frescor agradável e final de boca leve."^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_MarcusJamesReservadoRosé "2021"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_MarcusJamesReservadoRosé "8-12"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_MarcusJamesReservadoRosé "Tem uma coloração rosada viva e brilhante."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_MarcusJamesReservadoRosé "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_MarcusJamesReservadoRosé "11.0"^^xsd:float)
+
+# Individual: :Vinho_PrimeiraEstradaSyrahRose (:Vinho_PrimeiraEstradaSyrahRose)
+
+ObjectPropertyAssertion(:temTipo :Vinho_PrimeiraEstradaSyrahRose :Tipo_Rosé)
+ObjectPropertyAssertion(:temVinhedo :Vinho_PrimeiraEstradaSyrahRose :Vinhedo_SãoGonçalodoSapucaí)
+ObjectPropertyAssertion(:temVinícola :Vinho_PrimeiraEstradaSyrahRose :Vinícola_EstradaReal)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_PrimeiraEstradaSyrahRose :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_PrimeiraEstradaSyrahRose :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_PrimeiraEstradaSyrahRose :Uva_Shiraz)
+DataPropertyAssertion(:Olfato :Vinho_PrimeiraEstradaSyrahRose "Aroma muito agradável, rico em lichia, morango, com leve toque cítrico e frescor."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_PrimeiraEstradaSyrahRose "Em boca, tem confirmação de aromas, corpo leve, acidez presente, frescor e maciez, sendo muito agradável"^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_PrimeiraEstradaSyrahRose "5 à 7 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_PrimeiraEstradaSyrahRose "2021"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_PrimeiraEstradaSyrahRose "8-12"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_PrimeiraEstradaSyrahRose "Coloração salmão claro, límpido e brilhante."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_PrimeiraEstradaSyrahRose "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_PrimeiraEstradaSyrahRose "13.0"^^xsd:float)
+
+# Individual: :Vinho_RioSol8GranReserva (:Vinho_RioSol8GranReserva)
+
+ObjectPropertyAssertion(:temTipo :Vinho_RioSol8GranReserva :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_RioSol8GranReserva :Vinhedo_ValeDoSãoFrancisco)
+ObjectPropertyAssertion(:temVinícola :Vinho_RioSol8GranReserva :Vinícola_RioSol)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_RioSol8GranReserva :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_RioSol8GranReserva :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_RioSol8GranReserva :Uva_Assemblage)
+DataPropertyAssertion(:Amadurecimento :Vinho_RioSol8GranReserva "12"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_RioSol8GranReserva "Fruta bem madura como goiaba, morango, frutas silvestres com ligeiras notas balsâmicas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_RioSol8GranReserva "Volumoso e longo, com taninos bem sedosos e persistentes."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_RioSol8GranReserva "10 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_RioSol8GranReserva "2018"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_RioSol8GranReserva "18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_RioSol8GranReserva "Límpido, rubi intenso com ligeira evolução."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_RioSol8GranReserva "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_RioSol8GranReserva "13.5"^^xsd:float)
+
+# Individual: :Vinho_SaltonSeptimum2018 (:Vinho_SaltonSeptimum2018)
+
+ObjectPropertyAssertion(:temTipo :Vinho_SaltonSeptimum2018 :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_SaltonSeptimum2018 :Vinhedo_CampanhaGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_SaltonSeptimum2018 :Vinícola_Salton)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_SaltonSeptimum2018 :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_SaltonSeptimum2018 :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_SaltonSeptimum2018 :Uva_Assemblage)
+DataPropertyAssertion(:Amadurecimento :Vinho_SaltonSeptimum2018 "12"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_SaltonSeptimum2018 "Frutos silvestres frescos, como framboesa, groselha e mirtilo, além de toques florais, de cacau, folhas de tabaco, caramelo e especiarias."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_SaltonSeptimum2018 "De tanino aveludado, acidez equilibrada e final de boca prolongado"^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_SaltonSeptimum2018 "10 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_SaltonSeptimum2018 "2018"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_SaltonSeptimum2018 "16-18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_SaltonSeptimum2018 "Límpido, brilhante e de coloração vermelho rubi."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_SaltonSeptimum2018 "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_SaltonSeptimum2018 "13.0"^^xsd:float)
+
+# Individual: :Vinho_SanMartinRoséSuave (:Vinho_SanMartinRoséSuave)
+
+ObjectPropertyAssertion(:temTipo :Vinho_SanMartinRoséSuave :Tipo_Rosé)
+ObjectPropertyAssertion(:temVinhedo :Vinho_SanMartinRoséSuave :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_SanMartinRoséSuave :Vinícola_Panizzon)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_SanMartinRoséSuave :Classe_DeMesa)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_SanMartinRoséSuave :Classificação_SuaveRosé)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_SanMartinRoséSuave :Uva_Assemblage)
+DataPropertyAssertion(:Olfato :Vinho_SanMartinRoséSuave "Intenso com notas florais e de frutas vermelhas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_SanMartinRoséSuave "Adocicado, macio, com acidez equilibrada e persistência."^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_SanMartinRoséSuave "8-10"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_SanMartinRoséSuave "Rose, límpido e brilhante."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_SanMartinRoséSuave "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_SanMartinRoséSuave "10.5"^^xsd:float)
+
+# Individual: :Vinho_SegredosDaAdegaMerlot2014 (:Vinho_SegredosDaAdegaMerlot2014)
+
+ObjectPropertyAssertion(:temTipo :Vinho_SegredosDaAdegaMerlot2014 :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_SegredosDaAdegaMerlot2014 :Vinhedo_ValedosVinhedos)
+ObjectPropertyAssertion(:temVinícola :Vinho_SegredosDaAdegaMerlot2014 :Vinícola_CasaMarquesPereira)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_SegredosDaAdegaMerlot2014 :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_SegredosDaAdegaMerlot2014 :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_SegredosDaAdegaMerlot2014 :Uva_Merlot)
+DataPropertyAssertion(:Amadurecimento :Vinho_SegredosDaAdegaMerlot2014 "24"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_SegredosDaAdegaMerlot2014 "Possui mais aromas de frutas vermelhas como cereja, framboesa e groselha, aromas mais leves de frutas negras como amora e mirtilio, baunilha e cedro."^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_SegredosDaAdegaMerlot2014 "2014"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_SegredosDaAdegaMerlot2014 "16-18"^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_SegredosDaAdegaMerlot2014 "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_SegredosDaAdegaMerlot2014 "13.0"^^xsd:float)
+
+# Individual: :Vinho_TemposDeGóesReservaMalbec (:Vinho_TemposDeGóesReservaMalbec)
+
+ObjectPropertyAssertion(:temTipo :Vinho_TemposDeGóesReservaMalbec :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_TemposDeGóesReservaMalbec :Vinhedo_SãoRoque)
+ObjectPropertyAssertion(:temVinícola :Vinho_TemposDeGóesReservaMalbec :Vinícola_Góes)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_TemposDeGóesReservaMalbec :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_TemposDeGóesReservaMalbec :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_TemposDeGóesReservaMalbec :Uva_Malbec)
+DataPropertyAssertion(:Amadurecimento :Vinho_TemposDeGóesReservaMalbec "6"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_TemposDeGóesReservaMalbec "Destaque aromático para frutas vermelhas, como mirtilo, groselha, cereja, notas de carvalho sutis, tutti-frutti, geléias e frutas em calda."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_TemposDeGóesReservaMalbec "Apresenta excelente estrutura em boca, taninos presentes porém equilibrados, vinho ótimo para gastronomia."^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_TemposDeGóesReservaMalbec "2019"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_TemposDeGóesReservaMalbec "16-18"^^xsd:string)
+DataPropertyAssertion(:Temperatura :Vinho_TemposDeGóesReservaMalbec "5 a 7 anos"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_TemposDeGóesReservaMalbec "Vinho límpido e brilhante, com boa intensidade, vermelho rubi/violáceo."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_TemposDeGóesReservaMalbec "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_TemposDeGóesReservaMalbec "12.9"^^xsd:float)
+
+# Individual: :Vinho_TerragnoloMarselan (:Vinho_TerragnoloMarselan)
+
+ObjectPropertyAssertion(:temTipo :Vinho_TerragnoloMarselan :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_TerragnoloMarselan :Vinhedo_ValedosVinhedos)
+ObjectPropertyAssertion(:temVinícola :Vinho_TerragnoloMarselan :Vinícola_Terragnolo)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_TerragnoloMarselan :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_TerragnoloMarselan :Uva_Assemblage)
+DataPropertyAssertion(:Amadurecimento :Vinho_TerragnoloMarselan "24"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_TerragnoloMarselan "Nariz poderoso e crocante, aromas concentrados de geléia de frutas negras (amoras e ameixas), coco, especiarias, chocolate escuro e algo lácteo sobre um fundo terroso."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_TerragnoloMarselan "Na boca subscreve plenamente o nariz com frutado exuberante, suculento e gostoso. Taninos potentes contrabalanceados por acidez de viés gastronômico a formar um vinho de perfil moderno e que demonstra o potencial da região."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_TerragnoloMarselan "10 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_TerragnoloMarselan "2018"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_TerragnoloMarselan "16-18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_TerragnoloMarselan "Rubi profundo com reflexo púrpura."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_TerragnoloMarselan "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_TerragnoloMarselan "14.0"^^xsd:float)
+
+# Individual: :Vinho_ValdemizVideirasTannat (:Vinho_ValdemizVideirasTannat)
+
+ObjectPropertyAssertion(:temTipo :Vinho_ValdemizVideirasTannat :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_ValdemizVideirasTannat :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(:temVinícola :Vinho_ValdemizVideirasTannat :Vinícola_MonteReale)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_ValdemizVideirasTannat :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_ValdemizVideirasTannat :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_ValdemizVideirasTannat :Uva_Tannat)
+DataPropertyAssertion(:Olfato :Vinho_ValdemizVideirasTannat "É um vinho jovem, equilibrado, os aromas são limpos e de boa intensidade. Predominam os aromas de frutas vermelhas frescas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_ValdemizVideirasTannat "Vinho de corpo médio que apresenta uma sensação agradável, fina e com boa estrutura tânica."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_ValdemizVideirasTannat "5 a 7 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_ValdemizVideirasTannat "2021"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_ValdemizVideirasTannat "16-18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_ValdemizVideirasTannat "Límpido, brilhante, de coloração vermelha rubi com boa presença de tons violáceos."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_ValdemizVideirasTannat "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_ValdemizVideirasTannat "13.0"^^xsd:float)
+
+# Individual: :Vinho_ValparaisoVitaleNebbiolo (:Vinho_ValparaisoVitaleNebbiolo)
+
+ClassAssertion(:Vinho :Vinho_ValparaisoVitaleNebbiolo)
+ObjectPropertyAssertion(:temTipo :Vinho_ValparaisoVitaleNebbiolo :Tipo_Tinto)
+ObjectPropertyAssertion(:temVinhedo :Vinho_ValparaisoVitaleNebbiolo :Vinhedo_SerraGaúcha)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_ValparaisoVitaleNebbiolo :Classe_Fino)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_ValparaisoVitaleNebbiolo :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_ValparaisoVitaleNebbiolo :Uva_Sangiovese)
+DataPropertyAssertion(:Olfato :Vinho_ValparaisoVitaleNebbiolo "Em nariz muita fruta, leve floral e sutis notas terrosas."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_ValparaisoVitaleNebbiolo "Em boca fruta abundante, taninos presentes e acidez de média alta. Um vinho leve, fresco e elegante."^^xsd:string)
+DataPropertyAssertion(:PotencialDeGuarda :Vinho_ValparaisoVitaleNebbiolo "5 à 7 anos"^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_ValparaisoVitaleNebbiolo "2018"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_ValparaisoVitaleNebbiolo "15-18"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_ValparaisoVitaleNebbiolo "Visual lembra um clarete por não ter corte com outras uvas e por não ter sido prensado (somente mosto flor)."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_ValparaisoVitaleNebbiolo "750"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_ValparaisoVitaleNebbiolo "12.5"^^xsd:float)
+
+# Individual: :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 (:Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011)
+
+ObjectPropertyAssertion(:temTipo :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 :Tipo_Branco)
+ObjectPropertyAssertion(:temVinícola :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 :Vinícola_Góes)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 :Classe_Licoroso)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 :Classificação_Doce)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 :Uva_Lorena)
+DataPropertyAssertion(:Amadurecimento :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "96"^^xsd:int)
+DataPropertyAssertion(:Olfato :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "Excelentes características aromáticas, com destaque para uva passas, mel, amêndoas, especiarias (cravo e canela) e tabaco, resultando num bouquet fino e de grande riqueza."^^xsd:string)
+DataPropertyAssertion(:Paladar :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "Vinho com grande estrutura em boca, acidez equilibrada, notável complexidade e elegância, mostrando a generosidade da uva."^^xsd:string)
+DataPropertyAssertion(:Safra :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "2011"^^xsd:int)
+DataPropertyAssertion(:Temperatura :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "8-10"^^xsd:string)
+DataPropertyAssertion(:Visual :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "Límpido e brilhante. intensa coloração ambar, resultante da passagem por barricas."^^xsd:string)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "700"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_VinhoLicorosoEdiçãoEspecialGumercindoDeGóes2011 "18.0"^^xsd:float)
+
+# Individual: :Vinho_VivantFrisanteBrancoVinhoEmLata (:Vinho_VivantFrisanteBrancoVinhoEmLata)
+
+ObjectPropertyAssertion(:temCidade :Vinho_VivantFrisanteBrancoVinhoEmLata :Cidade_RioDeJaneiro)
+ObjectPropertyAssertion(:temTipo :Vinho_VivantFrisanteBrancoVinhoEmLata :Tipo_Branco)
+ObjectPropertyAssertion(:temVinícola :Vinho_VivantFrisanteBrancoVinhoEmLata :Vinícola_VivantWines)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClasse> :Vinho_VivantFrisanteBrancoVinhoEmLata :Classe_Frisante)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temClassificação> :Vinho_VivantFrisanteBrancoVinhoEmLata :Classificação_Seco)
+ObjectPropertyAssertion(<http://www.semanticweb.org/eduardo/ontologies/2021/6/ejmossmann_vinhosgauchos#temUva> :Vinho_VivantFrisanteBrancoVinhoEmLata :Uva_Moscato)
+DataPropertyAssertion(<http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Volume> :Vinho_VivantFrisanteBrancoVinhoEmLata "269"^^xsd:int)
+DataPropertyAssertion(<http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#GraduaçãoAlcoólica> :Vinho_VivantFrisanteBrancoVinhoEmLata "7.5"^^xsd:float)
+
+# Individual: :Vinícola_Amitié (:Vinícola_Amitié)
+
+ClassAssertion(:Amitié :Vinícola_Amitié)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Amitié :Cidade_BentoGonçalves)
+
+# Individual: :Vinícola_Aurora (:Vinícola_Aurora)
+
+ClassAssertion(:Aurora :Vinícola_Aurora)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Aurora :Cidade_BentoGonçalves)
+
+# Individual: :Vinícola_BuenosWines (:Vinícola_BuenosWines)
+
+ClassAssertion(:BuenosWines :Vinícola_BuenosWines)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_BuenosWines :Cidade_Candiota)
+
+# Individual: :Vinícola_CasaMarquesPereira (:Vinícola_CasaMarquesPereira)
+
+ClassAssertion(:CasaMarquesPereira :Vinícola_CasaMarquesPereira)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_CasaMarquesPereira :Cidade_MonteBeloDoSul)
+
+# Individual: :Vinícola_CasaValduga (:Vinícola_CasaValduga)
+
+ClassAssertion(:CasaValduga :Vinícola_CasaValduga)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_CasaValduga :Cidade_BentoGonçalves)
+
+# Individual: :Vinícola_CasaVenturini (:Vinícola_CasaVenturini)
+
+ClassAssertion(:CasaVenturini :Vinícola_CasaVenturini)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_CasaVenturini :Cidade_FloresDaCunha)
+
+# Individual: :Vinícola_CãoPerdigueiro (:Vinícola_CãoPerdigueiro)
+
+ClassAssertion(:CãoPerdigueiro :Vinícola_CãoPerdigueiro)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_CãoPerdigueiro :Cidade_CaxiasDoSul)
+
+# Individual: :Vinícola_DelGrano (:Vinícola_DelGrano)
+
+ClassAssertion(:DelGrano :Vinícola_DelGrano)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_DelGrano :Cidade_Farroupilha)
+
+# Individual: :Vinícola_DonAffonso (:Vinícola_DonAffonso)
+
+ClassAssertion(:DonAffonso :Vinícola_DonAffonso)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_DonAffonso :Cidade_CaxiasDoSul)
+
+# Individual: :Vinícola_DonBonifácio (:Vinícola_DonBonifácio)
+
+ClassAssertion(:DonBonifácio :Vinícola_DonBonifácio)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_DonBonifácio :Cidade_CaxiasDoSul)
+
+# Individual: :Vinícola_DonGuerino (:Vinícola_DonGuerino)
+
+ClassAssertion(:DonGuerino :Vinícola_DonGuerino)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_DonGuerino :Cidade_AltoFeliz)
+
+# Individual: :Vinícola_EstradaReal (:Vinícola_EstradaReal)
+
+ClassAssertion(:EstradaReal :Vinícola_EstradaReal)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_EstradaReal :Cidade_TrêsCorações)
+
+# Individual: :Vinícola_EstânciaParaizo (:Vinícola_EstânciaParaizo)
+
+ClassAssertion(:EstânciaParaizo :Vinícola_EstânciaParaizo)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_EstânciaParaizo :Cidade_Bagé)
+
+# Individual: :Vinícola_Galiotto (:Vinícola_Galiotto)
+
+ClassAssertion(:Galiotto :Vinícola_Galiotto)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Galiotto :Cidade_FloresDaCunha)
+
+# Individual: :Vinícola_Góes (:Vinícola_Góes)
+
+ClassAssertion(:Góes :Vinícola_Góes)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Góes :Cidade_SãoRoque)
+
+# Individual: :Vinícola_LuizArgenta (:Vinícola_LuizArgenta)
+
+ClassAssertion(:LuizArgenta :Vinícola_LuizArgenta)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_LuizArgenta :Cidade_FloresDaCunha)
+
+# Individual: :Vinícola_MonteReale (:Vinícola_MonteReale)
+
+ClassAssertion(:MonteReale :Vinícola_MonteReale)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_MonteReale :Cidade_FloresDaCunha)
+
+# Individual: :Vinícola_NovaAliança (:Vinícola_NovaAliança)
+
+ClassAssertion(:NovaAliança :Vinícola_NovaAliança)
+
+# Individual: :Vinícola_Panizzon (:Vinícola_Panizzon)
+
+ClassAssertion(:Panizzon :Vinícola_Panizzon)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Panizzon :Cidade_FloresDaCunha)
+
+# Individual: :Vinícola_RioSol (:Vinícola_RioSol)
+
+ClassAssertion(:RioSol :Vinícola_RioSol)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_RioSol :Cidade_LagoaGrande)
+
+# Individual: :Vinícola_Salton (:Vinícola_Salton)
+
+ClassAssertion(:Salton :Vinícola_Salton)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Salton :Cidade_BentoGonçalves)
+
+# Individual: :Vinícola_Terragnolo (:Vinícola_Terragnolo)
+
+ClassAssertion(:Terragnolo :Vinícola_Terragnolo)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_Terragnolo :Cidade_BentoGonçalves)
+
+# Individual: :Vinícola_VivantWines (:Vinícola_VivantWines)
+
+ClassAssertion(:VivantWines :Vinícola_VivantWines)
+ObjectPropertyAssertion(:vinícolaTemCidade :Vinícola_VivantWines :Cidade_RioDeJaneiro)
+
+
+DisjointClasses(<http://www.semanticweb.org/augus/ontologies/2021/6/agasta-vinhos-gauchos#Uva> :Cidade :Classe :Tipo :Vinhedo :Vinho <http://www.semanticweb.org/franciellevp/ontologies/2021/1/vinhos#Vinícola> <http://www.semanticweb.org/thalissonforte/ontologies/2021/6/ThalissonForte_Vinhos_Gauchos#Classificação>)
+)
